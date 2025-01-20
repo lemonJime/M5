@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Laboratorio 5</title>
+    <link rel="stylesheet" href="src/style.css">
   </head>
   <body>
     <div id="app">
-      <h1>TypeScript Sandbox</h1>
+      <h1>Juego de las siete media</h1>
+      <div id="espacio-juego">
+        <div id="puntuacion"></div>
+        <div id="game-over"></div>
+        <div id="mensaje-me-planto"></div>
+        <img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg" alt="carta" id="imagenCarta">
+        <button id="dame-carta">Pide carta 🃏 </button>
+        <button id="me-planto">Me planto ✋</button>
+        <button id="nueva-partida">Nueva partida</button>
+      </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
